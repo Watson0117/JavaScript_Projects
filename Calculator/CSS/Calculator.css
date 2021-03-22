@@ -9,7 +9,7 @@ html {
 }
 
 .calculator {
-    border: 1.2px solid darkslategray;
+    border: 1.2px solid rgb(248, 7, 248);
     border-radius: 7px;
     position: absolute;
     top: 50%;
@@ -23,7 +23,7 @@ html {
     font-size: 5rem;
     height: 80px;
     border: none;
-    background-color: rgb(96, 181, 214);
+    background-color: rgb(206, 32, 168);
     color: rgb(0, 0, 0);
     text-align: right;
     padding-right: 20px;

@@ -8,7 +8,7 @@ function getReceipt() {
     for (var i = 0; i < sizeArray.length; i++) {
         if (sizeArray[i].checked) {
             var selectedSize = sizeArray[i].value;
-            test1 = text1+selectedSize+"<br>";
+            text1 = text1+selectedSize+"<br>";
         }
     }
     if (selectedSize === "Personal Pizza") {
@@ -38,7 +38,7 @@ function getTopping(runningTotal,text1) {
         if (toppingArray[j].checked) {
             selectedTopping.push(toppingArray[j].value);
             console.log("selected topping item: ("+toppingArray[j].value+")");
-            test1 = text1+toppingArray[j].value+"<br>";
+            text1 = text1+toppingArray[j].value+"<br>";
         }
     }
     var toppingCount = selectedTopping.length;
