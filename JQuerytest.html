@@ -2,11 +2,12 @@
 <html>
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- thsi script links make the html use the jquery.js file at the address-->
     </head>
 
     <script>
         $(document).ready(function(){
-            $("html").append(
+            $("html").append(//this line make the h1 and paragraphs show up. this could be in a seperat js file
                 "<body>\
                     <div id='container'>\
                         <div id='inner'>\
@@ -19,8 +20,8 @@
                 </body>"       
             );
             $("#2").css({"color":"red"});
-            $("#3").click(function() {
-                $('h1').hide();
+            $("#3").click(function() {// this line bebins the function that hides the h1 tag
+                $('h1').hide();//this line hides the h1 element when paragraph 3 is clicked
             });
         });
     </script>
