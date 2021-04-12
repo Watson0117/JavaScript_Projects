@@ -41,7 +41,7 @@ function show() {
     };
     html += '</ul>';
     /** This displayes the task as a list **/
-    document.getElementById('todos').innerhtml = html;
+    document.getElementById('todos').innerHTML = html;
 
     var buttons = document.getElementsByClassName('remove');
     for (var i = 0; i < buttons.length; i++) {
