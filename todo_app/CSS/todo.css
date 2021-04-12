@@ -33,3 +33,7 @@ li {
             width: 35%;
             text-align: center;
         }
+
+        .remove {
+            padding-bottom: 5px;
+        }
