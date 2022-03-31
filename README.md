@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <p align="center">
    <a href="https://github.com/Watson0117/Basic-JavaScript-Projects">
-    <img src="Javascript_badge.svg.png" alt="Logo" width="180" height="180">
+    <img src="img/Javascript_badge.svg.png" alt="Logo" width="180" height="180">
   </a>
   <h3 align="center">JavaScript Projects</h3>
   <p align="center">
