@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Template title</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href=""><!--This is currently unused but I like to keep it as part of my template-->
+        <script src="JS/main.js"></script> <!--This is the scr that links the html to the .js file-->
+	</head>
+	<body>
+        <div>
+
+			<p id = "CON" onclick="CF()" >click here</p> <!--The id of CON means concatenate, this is the result of the += operator-->
+
+
+        </div>
+		<div>
+			<h1> head </h1>
+			<p id="changeit"> paragraph. </p>
+            <button onclick="change()">click to change</button>
+		</div>
+
+		<!-- for some reason when i duplicate the code down here it dosent work. the text in the paragraph dosent change. not sure why.
+		Update: ok so if I change it by adding a 2 to the end of changeit and change it works. why dose it not work on multiple elements?
+		I hade to make a duplicate of the function in the .js   would it not make sence to be able to call the function more than once?-->
+		<div>
+			<h1> head2 </h1>
+			<p id="changeit2"> paragraph2. </p>
+            <button onclick="change2()">click to change</button>
+		</div>
+		<!---->
+
+		<div>
+			<h1 id="H">click to change</h1>
+			<button onclick="FF()">click to change</button>
+		</div>
+	</body>
+    <footer> Templatemade by Jwatson </footer>
+</html>
+
