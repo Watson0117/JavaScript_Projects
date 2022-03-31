@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>React template</title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.development.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.development.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+	</head>
+		<body>
+            <div id="JSX"></div>
+            <script type="text/babel">
+            class Greeting extends React.Component {
+                render() {
+                    return <h1>Hellow, World!</h1>
+                }
+            }
+
+            ReactDOM.render(<Greeting />, document.getElementById('JSX'))
+            
+            </script>
+            
+		</body>
+	
+
+</html>
